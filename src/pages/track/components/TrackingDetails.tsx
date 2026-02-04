@@ -166,7 +166,7 @@ const TrackingDetails = ({ parcel }: TrackingDetailsProps) => {
                 
                 <div className="bg-white p-2 rounded">
                   <QRCode 
-                    value={`https://dammydx.github.io/SwiftHaul/track?id=${parcel.tracking_id}`} 
+                    value={`https://dammydx.github.io/DoluLogistics/track?id=${parcel.tracking_id}`} 
                     size={90} 
                   />
                 </div>
